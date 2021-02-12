@@ -24,5 +24,11 @@ namespace Daniel.Playing_YouTube_video_from_WPF
         {
             InitializeComponent();
         }
+
+        
+        private void btnButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Browser.Navigate(txtVideoUrl.Text);
+        }
     }
 }
